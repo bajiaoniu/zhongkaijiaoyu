@@ -1,0 +1,40 @@
+img{
+    margin-top:25%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+.item-input-wrapper{
+    padding-right: 0;
+    padding-left: 0;
+}
+input[type="text"]{
+    width:95%;
+    margin: 0;
+}
+.item{
+    border:none;
+}
+.button{
+    font-size: 14px;
+    padding:-1px 12px;
+}
+.col-80{
+    flex: 0 0 87%;
+    max-width: 87%;
+}
+.col-offset-10 {
+    margin-left: 8%;
+}
+.item p{
+    font-size: 13px;
+    margin: 0 5% 3px 0;
+}
+.button.button-balanced {
+    border-color: transparent;
+    background-color: #2BB045;
+}
+.button {
+    min-height: 29px;
+    line-height: 29px;
+}

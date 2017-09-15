@@ -1,0 +1,50 @@
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .tabs {
+        padding-top: 2px;
+        border-bottom: none;
+        background-position: top;
+        background-size: 100% 1px;
+
+        background-repeat: no-repeat; } }
+
+.baoming{
+    height:24px;
+    width:101px;
+    display: inline-block;
+    background:url("../img/zksmall-04.png") no-repeat 25px -34px;
+    background-size: 125px 125px;
+    border:none;
+}
+.geren{
+    height:24px;
+    width:101px;
+    display: inline-block;
+    background:url("../img/zksmall-04.png") no-repeat -60px -35px;
+    background-size: 125px 125px;
+}
+.footer{
+    border-top:1px solid #E4E4E4;
+}
+.footer-left:first-child{
+    border-right:1px solid #DBDBDB;
+}
+.tab-item, .tabs-icon-top.tabs .tab-item, .tabs-icon-bottom > .tabs .tab-item, .tabs-icon-bottom.tabs .tab-item {
+    font-size: 10px;
+    line-height: 12px;
+}
+.tab-item{
+    max-width: 186px;
+}
+ion-footer-bar{
+    margin-left: -5px;
+}
+
+.footer-lf{
+    height: 60%;
+    width: 10%;
+    margin: 9px 12px 0 13px;
+}
+.footer-center{
+    border-right: 1px solid #E1E1E1;
+    border-left: 1px solid #E1E1E1;
+}

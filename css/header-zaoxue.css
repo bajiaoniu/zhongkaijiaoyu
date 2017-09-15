@@ -1,0 +1,65 @@
+.center{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.center{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.bar.bar-balanced {
+    border-color: #2BB045;
+    background-color: #2BB045;
+    background-image: linear-gradient(0deg, #2BB045, #2BB045 50%, transparent 50%);
+    color: #fff;
+}
+.bar .title{
+    font-size: 18px;
+}
+.top-lf{
+    height:50%;
+    width: 63%;
+    margin: 8px 2px 0px -12px;
+}
+.top-geren{
+    vertical-align: middle;
+    height:50%;
+    width: 23%;
+    margin: -3px 2px 0px -12px;
+}
+#fanhui{
+    font-size: 18px;
+}
+.top-rg{
+    height: 29%;
+    width: 45%;
+}
+.top-ren {
+    height: 57%;
+    width: 50%;
+}
+#button-lf{
+    line-height: 13px;
+    bottom: 0px;
+}
+.scroll-content{
+    margin-top:-1px;
+}
+.bar-balanced .button {
+    border-color: #2BB045;
+    background-color: #2BB045;
+    color: #fff;
+}
+.yh-top button{
+    border:none;
+    color: #2BB045 ;
+}
+
+
+
+
