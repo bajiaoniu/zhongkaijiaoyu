@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css"/>
+    <link rel="stylesheet" href="css/zhuce.css"/>
+    <link rel="stylesheet" href="css/header-zaoxue.css"/>
+    <script src="js/ionic.bundle.js"></script>
+</head>
+<body>
+<!--页头-->
+<ion-header-bar class="yh-top bar-balanced" align-title="center">
+    <button class="button"><img src="img/18.png" class="top-lf" alt=""/></button>
+    <h1 class="title">中凯国际/早学</h1>
+    <button class="button"><img src="img/15.png" class="top-rg" alt=""/></button>
+</ion-header-bar>
+<!--正文-->
+<ion-content>
+    <div class="list">
+        <img src="img/logo.jpg" alt=""/>
+        <div class="item item-input-inset col-80 col-offset-10">
+            <p>手机号码</p>
+            <label class="item-input-wrapper">
+                <input type="text">
+            </label>
+        </div>
+        <div class="list row">
+            <div class="item item-input-inset col-80 col-offset-10">
+                <p>验证码</p>
+                <label class="item-input-wrapper">
+                    <input type="text" class="">
+                </label>
+                <button class="button button-energized">获取验证码</button>
+            </div>
+        </div>
+        <div class="row">
+            <button class="button button-balanced col-80 col-offset-10">注册</button>
+        </div>
+    </div>
+</ion-content>
+<script>
+    var app = angular.module('myApp', ['ionic'])
+</script>
+</body>
+</html>

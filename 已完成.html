@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="css/ionic.css"/>
+    <link rel="stylesheet" href="css/zk.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script src="js/ionic.bundle.js"></script>
+</head>
+<body>
+<!--页头-->
+<ion-header-bar class="bar-balance" align-title="center">
+    <ul>
+        <li class="top-header">
+            <a href="#"><span id="lf-jiantou"></span>研学活动</a>
+        </li>
+        <li class="top-header"><a href="#">代付款</a></li>
+        <li class="top-header"><a href="#">已报名</a></li>
+        <li class="top-header"><a href="#">已完成</a></li>
+    </ul>
+</ion-header-bar>
+<!--正文-->
+<ion-content>
+    <div class="list">
+            <a class="item item-thumbnail-left main" href="#">
+                <img src="img/zaoxue-01.jpg">
+                <h2 class="top">颐和园研学</h2>
+                <p>活动介绍活动介绍活动介绍</p>
+                <p class="price-w">¥128</p>
+                <button class="btn-huigu hp ">回顾活动</button>
+                <button class="btn-pingjia hp">客户评价</button>
+            </a>
+            <a class="item item-thumbnail-left main" href="#">
+                <img src="img/zaoxue-02.jpg">
+                <h2 class="top">颐和园研学</h2>
+                <p>活动介绍活动介绍活动介绍</p>
+                <p class="price-w">¥128</p>
+                <button class="btn-huigu hp ">回顾活动</button>
+                <button class="btn-pingjia hp">客户评价</button>
+            </a>
+            <a class="item item-thumbnail-left main" href="#">
+                <img src="img/zaoxue-01.jpg">
+                <h2 class="top">颐和园研学</h2>
+                <p>活动介绍活动介绍活动介绍</p>
+                <p class="price-w">¥128</p>
+                <button class="btn-huigu hp ">回顾活动</button>
+                <button class="btn-pingjia hp">客户评价</button>
+            </a>
+    </div>
+</ion-content>
+<!--页尾-->
+<ion-footer-bar>
+    <div class="tabs tabs-icon-top footer" >
+        <a class="tab-item footer-left">
+            <i class="icon baoming"></i>
+            报名
+        </a>
+        <a class="tab-item">
+            <i class="icon geren"></i>
+            个人中心
+        </a>
+    </div>
+</ion-footer-bar>
+<script>
+    var app = angular.module('myApp', ['ionic'])
+</script>
+</body>
+</html>
